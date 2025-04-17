@@ -20,6 +20,17 @@ venv\Scripts\activate  # для Windows
 pip install -r requirements.txt
 ```
 
+Генерация secret_key/
+
+```bash
+создайте файл .env и создайте в нем переменную SECRET_KEY
+python manage.py shell
+from django.core.management import utils
+utils.get_random_secret_key()
+и присваиваем его (SECRET_KEY=YOUR_SECRET_KEY)
+```
+
+
 Настройка миграций для бд 
 ```bash
 python manage.py makemigrations
