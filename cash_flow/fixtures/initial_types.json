@@ -1,0 +1,4 @@
+[
+  {"model": "cash_flow.type", "pk": 1, "fields": {"name": "Пополнение"}},
+  {"model": "cash_flow.type", "pk": 2, "fields": {"name": "Списание"}}
+]
