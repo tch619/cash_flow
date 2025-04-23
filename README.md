@@ -8,7 +8,7 @@
 
 Клонирование проекта 
 ```bash
-  git clone https://github.com/your-repo/dms-web-service.git
+  git clone https://github.com/tch619/cash_flow
   cd cash_flow_django
 ```
 
